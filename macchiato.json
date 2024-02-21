@@ -747,10 +747,7 @@
     },
     {
       "name": "Enum member",
-      "scope": [
-        "meta.enum variable.other.readwrite",
-        "variable.other.enummember"
-      ],
+      "scope": ["meta.enum variable.other.readwrite", "variable.other.enummember"],
       "settings": {
         "foreground": "#8bd5ca"
       }
@@ -764,12 +761,7 @@
     },
     {
       "name": "Types",
-      "scope": [
-        "meta.type",
-        "meta.type-alias",
-        "support.type",
-        "entity.name.type"
-      ],
+      "scope": ["meta.type", "meta.type-alias", "support.type", "entity.name.type"],
       "settings": {
         "foreground": "#eed49f",
         "fontStyle": "italic"
@@ -785,7 +777,7 @@
         "punctuation.decorator"
       ],
       "settings": {
-        "foreground": "#f5a97f"
+        "foreground": "#939AB7"
       }
     },
     {
@@ -810,10 +802,7 @@
     },
     {
       "name": "Preprocessor directives",
-      "scope": [
-        "keyword.control.directive",
-        "punctuation.definition.directive"
-      ],
+      "scope": ["keyword.control.directive", "punctuation.definition.directive"],
       "settings": {
         "foreground": "#eed49f"
       }
@@ -842,10 +831,7 @@
     },
     {
       "name": "This/Self keyword",
-      "scope": [
-        "variable.language.this",
-        "variable.language.this punctuation.definition.variable"
-      ],
+      "scope": ["variable.language.this", "variable.language.this punctuation.definition.variable"],
       "settings": {
         "foreground": "#ee99a0"
       }
@@ -1026,10 +1012,7 @@
     },
     {
       "name": "TOML tables / ini groups",
-      "scope": [
-        "support.type.property-name.table",
-        "entity.name.section.group-title.ini"
-      ],
+      "scope": ["support.type.property-name.table", "entity.name.section.group-title.ini"],
       "settings": {
         "foreground": "#eed49f"
       }
@@ -1043,10 +1026,7 @@
     },
     {
       "name": "YAML anchor puctuation",
-      "scope": [
-        "punctuation.definition.anchor.yaml",
-        "punctuation.definition.alias.yaml"
-      ],
+      "scope": ["punctuation.definition.anchor.yaml", "punctuation.definition.alias.yaml"],
       "settings": {
         "foreground": "#f5bde6"
       }
@@ -1270,8 +1250,7 @@
       "name": "JS/TS properties",
       "scope": ["variable.other.property.js", "variable.other.property.ts"],
       "settings": {
-        "foreground": "#cad3f5",
-        "fontStyle": "italic"
+        "foreground": "#cad3f5"
       }
     },
     {
@@ -1283,10 +1262,7 @@
     },
     {
       "name": "JSDoc; these are mainly params, so styled as such",
-      "scope": [
-        "variable.other.jsdoc",
-        "comment.block.documentation variable.other"
-      ],
+      "scope": ["variable.other.jsdoc", "comment.block.documentation variable.other"],
       "settings": {
         "foreground": "#ee99a0",
         "fontStyle": ""
@@ -1340,10 +1316,7 @@
     },
     {
       "name": "Arrow functions",
-      "scope": [
-        "keyword.declaration.function.arrow.js",
-        "storage.type.function.arrow.ts"
-      ],
+      "scope": ["keyword.declaration.function.arrow.js", "storage.type.function.arrow.ts"],
       "settings": {
         "foreground": "#8bd5ca"
       }
@@ -1571,10 +1544,7 @@
     },
     {
       "name": "Markdown triple backticks",
-      "scope": [
-        "markup.fenced_code.block punctuation.definition",
-        "markup.raw support.asciidoc"
-      ],
+      "scope": ["markup.fenced_code.block punctuation.definition", "markup.raw support.asciidoc"],
       "settings": {
         "foreground": "#939ab7"
       }
@@ -1595,20 +1565,14 @@
     },
     {
       "name": "Markdown list bullets",
-      "scope": [
-        "punctuation.definition.list.begin.markdown",
-        "markup.list.bullet"
-      ],
+      "scope": ["punctuation.definition.list.begin.markdown", "markup.list.bullet"],
       "settings": {
         "foreground": "#8bd5ca"
       }
     },
     {
       "name": "Nix attribute names",
-      "scope": [
-        "entity.other.attribute-name.multipart.nix",
-        "entity.other.attribute-name.single.nix"
-      ],
+      "scope": ["entity.other.attribute-name.multipart.nix", "entity.other.attribute-name.single.nix"],
       "settings": {
         "foreground": "#8aadf4"
       }
@@ -1674,10 +1638,7 @@
     },
     {
       "name": "Python argument functions reset to text, otherwise they inherit blue from function-call",
-      "scope": [
-        "support.variable.magic.python",
-        "meta.function-call.arguments.python"
-      ],
+      "scope": ["support.variable.magic.python", "meta.function-call.arguments.python"],
       "settings": {
         "foreground": "#cad3f5"
       }
@@ -1703,10 +1664,7 @@
     },
     {
       "name": "python keyword flow/logical (for ... in)",
-      "scope": [
-        "keyword.control.flow.python",
-        "keyword.operator.logical.python"
-      ],
+      "scope": ["keyword.control.flow.python", "keyword.operator.logical.python"],
       "settings": {
         "foreground": "#c6a0f6"
       }
@@ -1720,10 +1678,7 @@
     },
     {
       "name": "python function support",
-      "scope": [
-        "support.token.decorator.python",
-        "meta.function.decorator.identifier.python"
-      ],
+      "scope": ["support.token.decorator.python", "meta.function.decorator.identifier.python"],
       "settings": {
         "foreground": "#91d7e3"
       }
@@ -1737,10 +1692,7 @@
     },
     {
       "name": "python function decorators",
-      "scope": [
-        "entity.name.function.decorator.python",
-        "punctuation.definition.decorator.python"
-      ],
+      "scope": ["entity.name.function.decorator.python", "punctuation.definition.decorator.python"],
       "settings": {
         "foreground": "#f5a97f",
         "fontStyle": "italic"
@@ -1755,10 +1707,7 @@
     },
     {
       "name": "Python exception & builtins such as exit()",
-      "scope": [
-        "support.type.exception.python",
-        "support.function.builtin.python"
-      ],
+      "scope": ["support.type.exception.python", "support.function.builtin.python"],
       "settings": {
         "foreground": "#f5a97f"
       }
@@ -1826,10 +1775,7 @@
     },
     {
       "name": "Regex group parenthesis & backreference (\\1, \\2, \\3, ...)",
-      "scope": [
-        "punctuation.definition.group.regexp",
-        "keyword.other.back-reference.regexp"
-      ],
+      "scope": ["punctuation.definition.group.regexp", "keyword.other.back-reference.regexp"],
       "settings": {
         "foreground": "#a6da95"
       }
