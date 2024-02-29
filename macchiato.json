@@ -543,7 +543,7 @@
       "foreground": "#f5a97f"
     },
     "variable.defaultLibrary": {
-      "foreground": "#ee99a0"
+      "foreground": "#cad3f5"
     },
     "class:python": {
       "foreground": "#eed49f"
@@ -557,7 +557,7 @@
     "function.decorator:python": {
       "foreground": "#f5a97f"
     },
-    "variable.readonly:javascript": {
+    "variable.readonly:javascriptreact": {
       "foreground": "#cad3f5"
     },
     "variable.readonly:typescript": {
@@ -567,9 +567,6 @@
       "foreground": "#cad3f5"
     },
     "property.readonly:typescript": {
-      "foreground": "#cad3f5"
-    },
-    "variable.readonly:javascriptreact": {
       "foreground": "#cad3f5"
     },
     "variable.readonly:typescriptreact": {
@@ -665,8 +662,6 @@
       "name": "Booleans, constants, numbers",
       "scope": [
         "constant.numeric",
-        "variable.other.constant",
-        "entity.name.constant",
         "constant.language.boolean",
         "constant.language.false",
         "constant.language.true",
@@ -761,7 +756,7 @@
     },
     {
       "name": "Types",
-      "scope": ["meta.type", "meta.type-alias", "support.type", "entity.name.type"],
+      "scope": ["meta.type", "meta.type-alias", "support.type"],
       "settings": {
         "foreground": "#eed49f",
         "fontStyle": "italic"
@@ -808,13 +803,6 @@
       }
     },
     {
-      "name": "Type parameters",
-      "scope": "punctuation.definition.typeparameters",
-      "settings": {
-        "foreground": "#91d7e3"
-      }
-    },
-    {
       "name": "Namespaces",
       "scope": "entity.name.namespace",
       "settings": {
@@ -833,7 +821,7 @@
       "name": "This/Self keyword",
       "scope": ["variable.language.this", "variable.language.this punctuation.definition.variable"],
       "settings": {
-        "foreground": "#ee99a0"
+        "foreground": "#939AB7"
       }
     },
     {
@@ -1247,20 +1235,6 @@
       }
     },
     {
-      "name": "JS/TS properties",
-      "scope": ["variable.other.property.js", "variable.other.property.ts"],
-      "settings": {
-        "foreground": "#cad3f5"
-      }
-    },
-    {
-      "name": "Object literal properties",
-      "scope": "meta.object.member.js.jsx",
-      "settings": {
-        "foreground": "#eed49f"
-      }
-    },
-    {
       "name": "JSDoc; these are mainly params, so styled as such",
       "scope": ["variable.other.jsdoc", "comment.block.documentation variable.other"],
       "settings": {
@@ -1315,13 +1289,6 @@
       }
     },
     {
-      "name": "Arrow functions",
-      "scope": ["keyword.declaration.function.arrow.js", "storage.type.function.arrow.ts"],
-      "settings": {
-        "foreground": "#8bd5ca"
-      }
-    },
-    {
       "name": "Decorator punctuations (decorators inherit from blue functions, instead of styleguide peach)",
       "scope": "punctuation.decorator.ts",
       "settings": {
@@ -1341,7 +1308,13 @@
         "keyword.operator.expression.keyof.ts",
         "keyword.operator.expression.of.js",
         "keyword.operator.expression.of.ts",
-        "keyword.operator.expression.typeof.ts"
+        "keyword.operator.expression.typeof.ts",
+        "keyword.operator.expression.in.tsx",
+        "keyword.operator.expression.infer.tsx",
+        "keyword.operator.expression.instanceof.tsx",
+        "keyword.operator.expression.keyof.tsx",
+        "keyword.operator.expression.of.tsx",
+        "keyword.operator.expression.typeof.tsx"
       ],
       "settings": {
         "foreground": "#c6a0f6"
@@ -2077,6 +2050,56 @@
       "scope": "string.quoted.double.shell variable.other.normal.shell",
       "settings": {
         "foreground": "#cad3f5"
+      }
+    },
+    {
+      "name": "Custom #1",
+      "scope": ["entity.name.type", "entity.name.type.class", "entity.name.type.interface"],
+      "settings": {
+        "foreground": "#8bd5ca"
+      }
+    },
+    {
+      "name": "Custom #2",
+      "scope": [
+        "storage.type.function.arrow",
+        "meta.brace.square",
+        "meta.brace.round",
+        "punctuation.separator.key-value",
+        "keyword.operator",
+        "constant.language.import-export-all",
+        "punctuation.definition.typeparameters"
+      ],
+      "settings": {
+        "foreground": "#939AB7"
+      }
+    },
+    {
+      "name": "Custom #3",
+      "scope": "variable.other.link.underline",
+      "settings": {
+        "foreground": "#A6DA95"
+      }
+    },
+    {
+      "name": "Custom #4",
+      "scope": ["support.type.primitive", "keyword.operator.expression.import"],
+      "settings": {
+        "foreground": "#C6A0F6"
+      }
+    },
+    {
+      "name": "Custom #5",
+      "scope": ["variable.other.object.property", "meta.var.expr variable.other.object"],
+      "settings": {
+        "foreground": "#cad3f5"
+      }
+    },
+    {
+      "name": "Custom #6",
+      "scope": ["meta.object-literal.key", "meta.objectliteral"],
+      "settings": {
+        "foreground": "#EED49F"
       }
     }
   ]
