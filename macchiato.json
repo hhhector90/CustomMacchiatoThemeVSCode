@@ -557,19 +557,10 @@
     "function.decorator:python": {
       "foreground": "#f5a97f"
     },
-    "variable.readonly:javascriptreact": {
-      "foreground": "#cad3f5"
-    },
-    "variable.readonly:typescript": {
-      "foreground": "#cad3f5"
-    },
     "property.readonly:javascript": {
       "foreground": "#cad3f5"
     },
     "property.readonly:typescript": {
-      "foreground": "#cad3f5"
-    },
-    "variable.readonly:typescriptreact": {
       "foreground": "#cad3f5"
     },
     "property.readonly:javascriptreact": {
@@ -1218,13 +1209,6 @@
       "scope": "comment.block.javadoc.java keyword.other.documentation.javadoc.java",
       "settings": {
         "fontStyle": ""
-      }
-    },
-    {
-      "name": "Exported Variable",
-      "scope": "meta.export variable.other.readwrite.js",
-      "settings": {
-        "foreground": "#cad3f5"
       }
     },
     {
@@ -2090,16 +2074,30 @@
     },
     {
       "name": "Custom #5",
-      "scope": ["variable.other.object.property", "meta.var.expr variable.other.object"],
+      "scope": [
+        "meta.object.member variable.other.property",
+        "meta.object.member variable.other.readwrite",
+        "meta.var.expr.js meta.array.literal.js meta.object.member.js variable.other.readwrite.js",
+        "meta.var.expr.js variable.other.readwrite.js",
+        "meta.var.expr.js meta.objectliteral.js meta.object.member.js variable.other.readwrite.js"
+      ],
       "settings": {
-        "foreground": "#cad3f5"
+        "foreground": "#EED49F"
       }
     },
     {
       "name": "Custom #6",
-      "scope": ["meta.object-literal.key", "meta.objectliteral"],
+      "scope": [
+        "string.template variable.other.readwrite.js",
+        "meta.array.literal variable.other.readwrite",
+        "meta.var.expr.js meta.object.member.js meta.array.literal.js variable.other.readwrite.js",
+        "meta.var.expr meta.array.literal variable.other.readwrite",
+        "meta.definition.variable.js variable.other.readwrite.js",
+        "string.template.js variable.other.readwrite.js",
+        "meta.var.expr.js variable.other.readwrite.js"
+      ],
       "settings": {
-        "foreground": "#EED49F"
+        "foreground": "#CAD3F5"
       }
     }
   ]
